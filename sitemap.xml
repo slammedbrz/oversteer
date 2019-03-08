@@ -16,10 +16,6 @@
     <loc>index.htm</loc>
     <lastmod>2019-03-07</lastmod>
   </url>
-  <url oeid="9fa08b76-0086-4205-8fb8-09a3ab7f110a" oelang="DEFAULT">
-    <loc>submit.php</loc>
-    <lastmod>2019-03-07</lastmod>
-  </url>
   <url oeid="c8b4e4ec-f6c2-4064-a2d5-ae1eb20277df" oelang="DEFAULT">
     <loc>oe-users/user-admin-v1.php</loc>
     <lastmod>2019-03-07</lastmod>
@@ -36,8 +32,12 @@
     <loc>oe-users/user-profile-edit-v1.php</loc>
     <lastmod>2019-03-07</lastmod>
   </url>
-  <url oeid="ac6dcf24-7a07-4b49-b01d-0d547b49470e" oelang="DEFAULT">
-    <loc>Clips.php</loc>
+  <url oeid="2eea031a-6bad-486e-9719-ba23635f21d7" oelang="DEFAULT">
+    <loc>submit.htm</loc>
+    <lastmod>2019-03-07</lastmod>
+  </url>
+  <url oeid="5b510f0b-646c-45c8-ae62-102bb3292263" oelang="DEFAULT">
+    <loc>clips.htm</loc>
     <lastmod>2019-03-07</lastmod>
   </url>
 </urlset>
