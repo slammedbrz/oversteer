@@ -1,0 +1,4 @@
+<?php
+$OESiteUploadDirectory = "Upload";
+$OEConfWESendMail = '{"WE7be450623c":{"ScriptVersion":210,"ConfSendMail":{"IsUpdated":true,"Type":3,"TypeStr":"SMTP","SpecialType":"","SMTPHost":null,"SMTPPort":25,"SMTPUser":null,"SMTPPassWrd":null,"SMTPSSL":false},"FormLinks":{"ElementsID":{"WE7a60a5905f":"WETextArea2"},"ButtonSubmitID":"WE59f3301e49","ButtonCancelID":null},"SendMailInfo":{"AdminEmail":{"Items":{"DEFAULT":"bagged@protonmail.com"}},"CopycacheEmail":{"Items":{"DEFAULT":""}},"CopyEmail":{"Items":{"DEFAULT":""}},"ReturnEmail":"rocer@protonmail.com","ReturnEmailID":null,"Subject":"Drifting Clips","SendReceipt":false,"ReceiptHeader":{"Items":{"DEFAULT":""}},"ReceiptBody":{"Items":{"DEFAULT":""}},"SendReceiptSignature":false,"ReceiptSignature":{"Target":null,"Links":{"Items":{"DEFAULT":""}}},"UserEmailID":null,"ListInputTitle":{"WE7a60a5905f":{"Items":{"DEFAULT":""}}}}}}';
+$OEConfWETextArea = '{"WE7a60a5905f":{"InputName":"WE7a60a5905f"}}';

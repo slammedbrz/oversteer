@@ -21,7 +21,7 @@
   <script type="text/javascript" src="WEFiles/Client/jQuery/migrate.js?v=50491098000"></script>
   <script type="text/javascript" src="WEFiles/Client/Common/oe.min.js?v=50491098000"></script>
   <script type="text/javascript" src="home(var).js?v=50491098000"></script>
-  <script type="text/javascript" src="WEFiles/EG/EG8ced4f68/Js/field-def-text-v59.js?v=50491098000"></script>
+  <script type="text/javascript" src="file:///C:/Users/almir/AppData/Local/Temp/openElement/2a65ed3e-f00d-4121-b438-8810b41975e3/LinkFile/ufzhu11m.0yp.js"></script>
   <script type="text/javascript" src="WEFiles/Client/WEMenu-v23.js?v=50491098000"></script>
   <script type="text/javascript" src="WEFiles/EG/EG891d4068/Js/anchor-scroll-v13.js?v=50491098000"></script>
   <script type="text/javascript" src="WEFiles/Client/jQuery/Plugins/jquery.form.js?v=50491098000"></script>
@@ -130,7 +130,9 @@
            </div>
           </div><div id="WEd0eee7eee2" class="BaseDiv RBoth OEWEImage OESK_WEImage_Default" style="z-index:1008">
            <div class="OESZ OESZ_DivContent OESZG_WEd0eee7eee2">
-            <img src="Files/Image/oversteerlogo.png" class="OESZ OESZ_Img OESZG_WEd0eee7eee2" alt="" />
+            <a href="index.htm">
+             <img src="Files/Image/oversteerlogo.png" class="OESZ OESZ_Img OESZG_WEd0eee7eee2" alt="" />
+            </a>
            </div>
           </div><div id="WE0ef8f8d0da" class="BaseDiv RNone OEWELink OESK_WELink_Default  transitions btmobile" style="z-index:1004" onclick="return OE.Navigate.open(event,'index.htm',1)">
            <div class="OESZ OESZ_DivContent OESZG_WE0ef8f8d0da">
@@ -140,9 +142,17 @@
            <div class="OESZ OESZ_DivContent OESZG_WE6aa5e0a273">
             <a class="OESZ OESZ_Link OESZG_WE6aa5e0a273 ContentBox" data-cd="PageLink" href="aboutoversteer.htm">about</a>
            </div>
-          </div><div id="WE6c1ed42a4f" class="BaseDiv RNone OEWELink OESK_WELink_Default  transitions btmobile" style="z-index:1007" onclick="return OE.Navigate.blank(event,'https://discord.gg/6ftQ5G3')">
+          </div><div id="WE6c1ed42a4f" class="BaseDiv RNone OEWELink OESK_WELink_Default  transitions btmobile" style="z-index:1007" onclick="return OE.Navigate.open(event,'https://discord.gg/6ftQ5G3',1)">
            <div class="OESZ OESZ_DivContent OESZG_WE6c1ed42a4f">
-            <a class="OESZ OESZ_Link OESZG_WE6c1ed42a4f ContentBox" data-cd="PageLink" target="_blank" href="https://discord.gg/6ftQ5G3" onclick="return OE.Navigate.blank(event,this.href)">discord</a>
+            <a class="OESZ OESZ_Link OESZG_WE6c1ed42a4f ContentBox" data-cd="PageLink" href="https://discord.gg/6ftQ5G3">discord</a>
+           </div>
+          </div><div id="WE4738ec57bf" class="BaseDiv RNone OEWELink OESK_WELink_Default  transitions btmobile" style="z-index:1006" onclick="return OE.Navigate.open(event,'submit.php',1)">
+           <div class="OESZ OESZ_DivContent OESZG_WE4738ec57bf">
+            <a class="OESZ OESZ_Link OESZG_WE4738ec57bf ContentBox" data-cd="PageLink" href="submit.php">SUBMIT YOUR&nbsp;&nbsp;CLIPS<br /></a>
+           </div>
+          </div><div id="WE134b3c1c2b" class="BaseDiv RNone OEWELink OESK_WELink_Default  transitions btmobile" style="z-index:1007" onclick="return OE.Navigate.open(event,'Clips.php',1)">
+           <div class="OESZ OESZ_DivContent OESZG_WE134b3c1c2b">
+            <a class="OESZ OESZ_Link OESZG_WE134b3c1c2b ContentBox" data-cd="PageLink" href="Clips.php">Clips<br /></a>
            </div>
           </div>
          </div>

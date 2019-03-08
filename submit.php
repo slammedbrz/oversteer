@@ -7,26 +7,28 @@
   <link id="siteFonts" rel="stylesheet" type="text/css" href="Files/Fonts/Fonts.css?v=50491098000" />
   <link id="OETemplate1" rel="stylesheet" type="text/css" href="Templates/Base.css?v=50491098000" />
   <link id="OETemplate2" rel="stylesheet" type="text/css" href="Templates/Base_Menu_Alt.css?v=50491098000" />
-  <link id="OEBase" rel="stylesheet" type="text/css" href="aboutoversteer.css?v=50491098000" />
+  <link id="OEBase" rel="stylesheet" type="text/css" href="submit.css?v=50491098000" />
   <link rel="stylesheet" type="text/css" href="WEFiles/Css/WEMenu-v23.css?v=50491098000" />
   <link rel="stylesheet" type="text/css" href="WEFiles/Css/opentip.css?v=50491098000" />
+  <link rel="stylesheet" type="text/css" href="WEFiles/EG/EGf79d11e9/Css/parallax-safe-v26.css?v=50491098000" />
   <link rel="stylesheet" type="text/css" href="WEFiles/EG/EGf8c88e12/Css/jquery.vegas-v89.css?v=50491098000" />
   <!--[if lte IE 7]>
   <link rel="stylesheet" type="text/css" href="WEFiles/Css/ie7.css?v=50491098000" />
   <![endif]-->
   <script type="text/javascript">
-   var WEInfoPage = {"PHPVersion":"phpOK","OEVersion":"1-57-9","PagePath":"aboutoversteer","Culture":"DEFAULT","LanguageCode":"EN","RelativePath":"","RenderMode":"Export","PageAssociatePath":"aboutoversteer","EditorTexts":null};
+   var WEInfoPage = {"PHPVersion":"phpOK","OEVersion":"1-57-9","PagePath":"submit","Culture":"DEFAULT","LanguageCode":"EN","RelativePath":"","RenderMode":"Export","PageAssociatePath":"submit","EditorTexts":null};
   </script>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script type="text/javascript" src="WEFiles/Client/jQuery/migrate.js?v=50491098000"></script>
   <script type="text/javascript" src="WEFiles/Client/Common/oe.min.js?v=50491098000"></script>
-  <script type="text/javascript" src="aboutoversteer(var).js?v=50491098000"></script>
-  <script type="text/javascript" src="file:///C:/Users/almir/AppData/Local/Temp/openElement/2a65ed3e-f00d-4121-b438-8810b41975e3/LinkFile/aeof2fy3.j2l.js"></script>
+  <script type="text/javascript" src="submit(var).js?v=50491098000"></script>
+  <script type="text/javascript" src="file:///C:/Users/almir/AppData/Local/Temp/openElement/2a65ed3e-f00d-4121-b438-8810b41975e3/LinkFile/yg3vddne.ubt.js"></script>
   <script type="text/javascript" src="WEFiles/Client/WEMenu-v23.js?v=50491098000"></script>
   <script type="text/javascript" src="WEFiles/EG/EG891d4068/Js/anchor-scroll-v13.js?v=50491098000"></script>
   <script type="text/javascript" src="WEFiles/Client/jQuery/Plugins/jquery.form.js?v=50491098000"></script>
   <script type="text/javascript" src="WEFiles/Client/opentip-jquery.min.js?v=50491098000"></script>
   <script type="text/javascript" src="WEFiles/Client/WESendMail-v210.js?v=50491098000"></script>
+  <script type="text/javascript" src="WEFiles/EG/EGf79d11e9/Js/parallax-safe-v33.js?v=50491098000"></script>
   <script type="text/javascript" src="WEFiles/EG/EGf8c88e12/Js/jquery.vegas.min-v81.js?v=50491098000"></script>
   <script type="text/javascript" src="WEFiles/EG/EGf8c88e12/Js/WEBackgroundSlider-v213.js?v=50491098000"></script>
   <style id="OEScriptManager" type="text/css">
@@ -107,9 +109,13 @@
    	}
    
    });
-  </script>
+  </script><?php
+  	if (isset($oeHeaderInlineCode)) echo $oeHeaderInlineCode;
+  ?>
  </head>
- <body class="RWAuto">
+ <body class="RWAuto"><?php
+  	if (isset($oeStartBodyInlineCode)) echo $oeStartBodyInlineCode;
+  ?>
   <form id="XForm" method="post" action="#"></form>
   <div id="XBody" class="BaseDiv RWidth OEPageXbody OESK_XBody_Default" style="z-index:2000">
    <div class="OESZ OESZ_DivContent OESZG_XBody">
@@ -133,17 +139,17 @@
            <div class="OESZ OESZ_DivContent OESZG_WE0ef8f8d0da">
             <a class="OESZ OESZ_Link OESZG_WE0ef8f8d0da ContentBox" data-cd="PageLink" href="index.htm">home</a>
            </div>
-          </div><div id="WE6aa5e0a273" class="BaseDiv RNone OEWELink OESK_WELink_Default OE_ActiveLink  transitions btmobile" style="z-index:1005" onclick="return OE.Navigate.open(event,'aboutoversteer.htm',1)">
-           <div class="OESZ OESZ_DivContent OESZG_WE6aa5e0a273 OE_ActiveLink">
-            <a class="OESZ OESZ_Link OESZG_WE6aa5e0a273 OE_ActiveLink ContentBox" data-cd="PageLink" href="aboutoversteer.htm">about</a>
+          </div><div id="WE6aa5e0a273" class="BaseDiv RNone OEWELink OESK_WELink_Default  transitions btmobile" style="z-index:1005" onclick="return OE.Navigate.open(event,'aboutoversteer.htm',1)">
+           <div class="OESZ OESZ_DivContent OESZG_WE6aa5e0a273">
+            <a class="OESZ OESZ_Link OESZG_WE6aa5e0a273 ContentBox" data-cd="PageLink" href="aboutoversteer.htm">about</a>
            </div>
           </div><div id="WE6c1ed42a4f" class="BaseDiv RNone OEWELink OESK_WELink_Default  transitions btmobile" style="z-index:1007" onclick="return OE.Navigate.open(event,'https://discord.gg/6ftQ5G3',1)">
            <div class="OESZ OESZ_DivContent OESZG_WE6c1ed42a4f">
             <a class="OESZ OESZ_Link OESZG_WE6c1ed42a4f ContentBox" data-cd="PageLink" href="https://discord.gg/6ftQ5G3">discord</a>
            </div>
-          </div><div id="WE4738ec57bf" class="BaseDiv RNone OEWELink OESK_WELink_Default  transitions btmobile" style="z-index:1006" onclick="return OE.Navigate.open(event,'submit.php',1)">
-           <div class="OESZ OESZ_DivContent OESZG_WE4738ec57bf">
-            <a class="OESZ OESZ_Link OESZG_WE4738ec57bf ContentBox" data-cd="PageLink" href="submit.php">SUBMIT YOUR&nbsp;&nbsp;CLIPS<br /></a>
+          </div><div id="WE4738ec57bf" class="BaseDiv RNone OEWELink OESK_WELink_Default OE_ActiveLink  transitions btmobile" style="z-index:1006" onclick="return OE.Navigate.open(event,'submit.php',1)">
+           <div class="OESZ OESZ_DivContent OESZG_WE4738ec57bf OE_ActiveLink">
+            <a class="OESZ OESZ_Link OESZG_WE4738ec57bf OE_ActiveLink ContentBox" data-cd="PageLink" href="submit.php">SUBMIT YOUR&nbsp;&nbsp;CLIPS<br /></a>
            </div>
           </div><div id="WE134b3c1c2b" class="BaseDiv RNone OEWELink OESK_WELink_Default  transitions btmobile" style="z-index:1007" onclick="return OE.Navigate.open(event,'Clips.php',1)">
            <div class="OESZ OESZ_DivContent OESZG_WE134b3c1c2b">
@@ -155,31 +161,6 @@
        </div>
       </div>
      </div>
-     <div class="OERelLine OEHAlignL OEVAlignB">
-      <div id="WEb0a57424d2" class="BaseDiv RBoth OEWEPanel OESK_WEPanel_Default  transitions" style="z-index:2001">
-       <div class="OESZ OESZ_DivContent OESZG_WEb0a57424d2">
-        <div class="OECT OECT_Content OECTRel OEDynTag0" style="overflow:hidden"></div>
-       </div>
-      </div>
-     </div>
-     <div class="OERelLine OEHAlignC OEVAlignB">
-      <div id="WE71bd49c840" class="BaseDiv RNone OEWELabel OESK_WELabel_Default" style="z-index:2004">
-       <div class="OESZ OESZ_DivContent OESZG_WE71bd49c840">
-        <span class="OESZ OESZ_Text OESZG_WE71bd49c840 ContentBox">About Oversteer<br /></span>
-       </div>
-      </div><div id="WE416294e327" class="BaseDiv RBoth OEWEPanel OESK_WEPanel_Default  transitions" style="z-index:2010">
-       <div class="OESZ OESZ_DivContent OESZG_WE416294e327">
-        <div class="OECT OECT_Content OECTRel OEDynTag0" style="overflow:hidden"></div>
-       </div>
-      </div>
-     </div>
-     <div class="OERelLine OEHAlignC OEVAlignB">
-      <div id="WEc594b57839" class="BaseDiv RWidth OEWEText OESK_WEText_Default" style="z-index:2004">
-       <div class="OESZ OESZ_DivContent OESZG_WEc594b57839">
-        <span class="ContentBox">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br /><br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Who are we? &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br /><br />Oversteer was founded in 2017, but unfortunately died later that year. &nbsp;In 2018, the team was revived to be what it is today. &nbsp;<br /><br />We are a team of professional drivers that represent Oversteer. &nbsp;Our goal is to have an outstanding performing group of individuals that are able to properly slide ツ. &nbsp;We are more than a team, we are family, we treat everyone in this group with major respect, and value everyone in this group. &nbsp;Don't think that you can fit in the group?&nbsp; Don't worry!&nbsp;&nbsp;We have a team of very kind people that are more than willing to help you out.<br /></span>
-       </div>
-      </div>
-     </div>
     </div>
     <div class="OESZ OESZ_XBodyFooter OESZG_XBody OECT OECT_Footer OECTAbs">
      <div id="WEToTop" class="BaseDiv RBoth OEWELinkButton OESK_WELinkButton_Default OEGo  transitions" style="z-index:1" onclick="return OE.Navigate.open(event,'#page-top',1)">
@@ -187,9 +168,27 @@
        <a class="OESZ OESZ_Text OESZG_WEToTop ContentBox" href="#page-top"><br /></a>
       </div>
      </div>
+     <div id="WE7e2b3b6a18" class="BaseDiv RWidth OEWEText OESK_WEText_Default OECenterAH" style="z-index:2003">
+      <div class="OESZ OESZ_DivContent OESZG_WE7e2b3b6a18">
+       <span class="ContentBox">SUBMISSION&nbsp;FORMAT:<br /><br />Discord Username:<br />YouTube video link:<br /><br />By sending us this email, you agree to not DM any of the Staff members to view your clip, doing so will result in a disqualification.<br /><br />If you end up running into any issues submitting your clips to us, please DM Lovescars on Discord.<br /></span>
+      </div>
+     </div>
+     <div id="WE7a60a5905f" class="BaseDiv RBoth OEWETextAreaV2 OESK_WETextArea2_Default OECenterAH" style="z-index:2001">
+      <div class="OESZ OESZ_DivContent OESZG_WE7a60a5905f">
+       <textarea class="OESZ OESZ_TextArea OESZG_WE7a60a5905f OEDynTag0" name="WE7a60a5905f" style="resize:none" rows="3" cols="50"></textarea>
+      </div>
+     </div>
+     <div id="WE59f3301e49" class="BaseDiv RWidth OEWEButton OESK_WEButton_Default OECenterAH" style="z-index:2002">
+      <div class="OESZ OESZ_DivContent OESZG_WE59f3301e49">
+       <button class="OESZ OESZ_Button OESZG_WE59f3301e49 OEDynTag0" type="button" name="WE59f3301e49">Submit!</button>
+      </div>
+     </div>
     </div>
-    <div id="WE96bda032fa" class="BaseDiv RBoth OEEGf8c88e12 OESK_EGf8c88e12_Default" style="z-index:2002">
-     <div class="OESZ OESZ_DivContent OESZG_WE96bda032fa">
+    <div id="WEb1e88097ca" class="BaseDiv RBoth OEEGf79d11e9 OESK_EGf79d11e9_Default" style="z-index:2002">
+     <div class="OESZ OESZ_DivContent OESZG_WEb1e88097ca"></div>
+    </div>
+    <div id="WE44fc304a0b" class="BaseDiv RBoth OEEGf8c88e12 OESK_EGf8c88e12_Default" style="z-index:2001">
+     <div class="OESZ OESZ_DivContent OESZG_WE44fc304a0b">
       <div>
       </div>
      </div>
